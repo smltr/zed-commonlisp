@@ -1,0 +1,15 @@
+id = "commonlisp"
+name = "Common Lisp"
+description = "Common Lisp support."
+version = "0.0.1"
+schema_version = 1
+authors = ["Sam Trouy <smltr@proton.me>"]
+repository = "https://github.com/zed-extensions/commonlisp"
+
+[grammars.commonlisp]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-commonlisp"
+commit = "32323509b3d9fe96607d151c2da2c9009eb13a2f"
+
+[language_servers.cl_lsp]
+name = "Common Lisp LSP"
+languages = ["Common Lisp"]
